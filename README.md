@@ -6,7 +6,7 @@ weather.py is a simple Python script that integrates the [Weather Underground AP
 Motivation
 ----------
 
-I work in a lab with no windows. In a part of the world where it can start raining unpredictably. So I wrote this script, which runs automatically when I log in. It will check for rain every five minutes and send me an alert. When I log out and leave the lab it stops raining.
+I work in a lab with no windows. In a part of the world where it can start raining unpredictably. So I wrote this script, which runs automatically when I log in. It will check for rain every five minutes and send me an alert. When I log out and leave the lab it stops checking.
 
 Setup
 -----
@@ -17,7 +17,6 @@ Usage
 -----
 
 	python weather.py
-
 And let it run.
 
 Running Automatically
@@ -25,11 +24,14 @@ Running Automatically
 
 There is a .plist file supplied, edit it to point to your copy of weather.py and save it in `~/Library/LaunchAgents/`. The script will automatically run at login.
 
+Alternatively, add it as a login item.
+
 License
 -------
-TBD
+Mozilla Public License 2
 
 Author
 ------
 John Heenan
-@0xEsquire
+
+[@0xEsquire](https://twitter.com/0xEsquire)
