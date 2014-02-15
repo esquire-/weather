@@ -29,10 +29,17 @@ Alternatively, add it as a login item.
 
 License
 -------
+
 Mozilla Public License 2
+
+Thanks
+------
+
+Weather.py makes use of [PyNMA](https://github.com/uskr/pynma).
 
 Author
 ------
+
 John Heenan
 
 [@0xEsquire](https://twitter.com/0xEsquire)
