@@ -16,7 +16,8 @@ Get API keys for Weather Underground and Notify My Android. Set those values in 
 Usage
 -----
 
-	python weather.py
+`python weather.py`
+
 And let it run.
 
 Running Automatically
