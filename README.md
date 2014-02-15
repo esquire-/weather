@@ -35,6 +35,8 @@ Mozilla Public License 2
 Thanks
 ------
 
+The original idea belongs to [@angusi](https://twitter.com/angusi), I just cleaned it up.
+
 Weather.py makes use of [PyNMA](https://github.com/uskr/pynma).
 
 Author
